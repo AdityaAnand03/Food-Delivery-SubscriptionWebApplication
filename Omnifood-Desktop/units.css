@@ -1,0 +1,22 @@
+html {
+  /* font-size: 10px; */
+
+  /* 10px/16px=0.625 =62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+.test {
+  /* width: 1000px; */
+  background-color: brown;
+  /* max-width: 1000px; maximum width is 1000px that is if viewport is greater than 1000px the the width of element will be 1000px but when the viewport decreases then the width will be of parent container size */
+
+  max-width: 50rem;
+  /* default 1rem=16px -> 16*50 =800px*/
+  /* But in html we defined font-size as 10px so now 1rem =10px */
+  /* therefore 50rem=500px */
+
+  color: #fff;
+  font-size: 2rem; /*20px*/
+  padding: 4rem; /*40px*/
+}
